@@ -5,19 +5,6 @@
   
   <entry>
     <title></title>
-    <link href="/2025/02/24/Tableau%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <url>/2025/02/24/Tableau%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    
-    <content type="html"><![CDATA[<h1 id="Tableau"><a href="#Tableau" class="headerlink" title="Tableau"></a>Tableau</h1><p>摁住ctrl &#x3D; 复制</p><p>地图上shift可以平移</p><p>故事：类似于ppt，可以向其中添加工作表和仪表盘</p><p>蓝色：度量名称（离散）</p><p>绿色：度量值（连续）</p><p>做表格实则就是在行上（纵向）添加字段的过程</p><p>纵轴数据为行位置、横向数据为列位置。不同的维度进行度量</p><p>离散形成标签，连续形成数轴</p><p>横轴是维度，纵轴是高低</p><p>饼图：可以通过点击字段–&gt;快速表计算–&gt;合计百分比来将数据变化成百分比形式+设置格式可以修改小数点位数</p><p>编辑表计算：可以纵向设置百分比计算</p><p>折线图：可以进入分析–&gt;趋势线&#x2F;预测</p><p>度量值位置右键：双轴 可以实现百分比和数值类型在同一个表中</p><p>标记中的工具提示：可以鼠标悬浮看到对应信息</p>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title></title>
     <link href="/2025/02/24/sql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <url>/2025/02/24/sql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     
@@ -79,7 +66,26 @@
     
     <tags>
       
-      <tag>原创</tag>
+      <tag>测试</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Tableau</title>
+    <link href="/2025/02/24/Tableau%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <url>/2025/02/24/Tableau%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Tableau"><a href="#Tableau" class="headerlink" title="Tableau"></a>Tableau</h1><p>摁住ctrl &#x3D; 复制</p><p>地图上shift可以平移</p><p>故事：类似于ppt，可以向其中添加工作表和仪表盘</p><p>蓝色：度量名称（离散）</p><p>绿色：度量值（连续）</p><p>做表格实则就是在行上（纵向）添加字段的过程</p><p>纵轴数据为行位置、横向数据为列位置。不同的维度进行度量</p><p>离散形成标签，连续形成数轴</p><p>横轴是维度，纵轴是高低</p><p>饼图：可以通过点击字段–&gt;快速表计算–&gt;合计百分比来将数据变化成百分比形式+设置格式可以修改小数点位数</p><p>编辑表计算：可以纵向设置百分比计算</p><p>折线图：可以进入分析–&gt;趋势线&#x2F;预测</p><p>度量值位置右键：双轴 可以实现百分比和数值类型在同一个表中</p><p>标记中的工具提示：可以鼠标悬浮看到对应信息</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>学习笔记</tag>
       
     </tags>
     

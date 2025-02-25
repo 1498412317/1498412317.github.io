@@ -19,22 +19,24 @@
   <meta name="author" content="zhangchenming">
   <meta name="keywords" content="">
   
-    <meta name="description" content="SQL from–where–group by–having–order by–limit–select  基础语句1、select fromselect 字段名 from 表明 select  字段名 as 别名 from  表名 （as可以省略）  查询多列  select  字段名1,字段名2,字段名3 from  表名  查询所有列  select * from  表名  数据去重  se">
+    <meta name="description" content="Excel周报">
 <meta property="og:type" content="article">
-<meta property="og:title" content="SQL">
-<meta property="og:url" content="http://example.com/2025/02/24/sql%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html">
+<meta property="og:title" content="Excel周报">
+<meta property="og:url" content="http://example.com/2025/02/25/Excel%E5%91%A8%E6%8A%A5/index.html">
 <meta property="og:site_name" content="铭铭就">
-<meta property="og:description" content="SQL from–where–group by–having–order by–limit–select  基础语句1、select fromselect 字段名 from 表明 select  字段名 as 别名 from  表名 （as可以省略）  查询多列  select  字段名1,字段名2,字段名3 from  表名  查询所有列  select * from  表名  数据去重  se">
+<meta property="og:description" content="Excel周报">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-02-24T15:40:57.000Z">
-<meta property="article:modified_time" content="2025-02-24T15:58:04.098Z">
+<meta property="og:image" content="http://example.com/images/Excel%E5%91%A8%E6%8A%A5.png">
+<meta property="article:published_time" content="2025-02-25T09:40:57.000Z">
+<meta property="article:modified_time" content="2025-02-25T09:08:26.467Z">
 <meta property="article:author" content="zhangchenming">
-<meta property="article:tag" content="学习笔记">
+<meta property="article:tag" content="项目">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/images/Excel%E5%91%A8%E6%8A%A5.png">
   
   
   
-  <title>SQL - 铭铭就</title>
+  <title>Excel周报 - 铭铭就</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -200,7 +202,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="SQL"></span>
+            <span id="subtitle" data-typed-text="Excel周报"></span>
           
         </div>
 
@@ -211,8 +213,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2025-02-24 23:40" pubdate>
-          2025年2月24日 晚上
+        <time datetime="2025-02-25 17:40" pubdate>
+          2025年2月25日 下午
         </time>
       </span>
     
@@ -223,7 +225,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.2k 字
+          3 字
         
       </span>
     
@@ -234,7 +236,7 @@
         
         
         
-          10 分钟
+          1 分钟
         
       </span>
     
@@ -271,329 +273,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">SQL</h1>
+            <h1 id="seo-header">Excel周报</h1>
             
             
               <div class="markdown-body">
                 
-                <h1 id="SQL"><a href="#SQL" class="headerlink" title="SQL"></a>SQL</h1><ul>
-<li>from–where–group by–having–order by–limit–select</li>
-</ul>
-<h2 id="基础语句"><a href="#基础语句" class="headerlink" title="基础语句"></a>基础语句</h2><h3 id="1、select-from"><a href="#1、select-from" class="headerlink" title="1、select from"></a>1、select from</h3><p>select 字段名 from 表明</p>
-<p>select  字段名 as 别名 from  表名 （as可以省略）</p>
-<ul>
-<li>查询多列</li>
-</ul>
-<p>select  字段名1,字段名2,字段名3 from  表名</p>
-<ul>
-<li>查询所有列</li>
-</ul>
-<p>select * from  表名</p>
-<ul>
-<li>数据去重</li>
-</ul>
-<p>select  distinct  字段名 from 表名</p>
-<ul>
-<li>select中的计算字段</li>
-</ul>
-<p>select   字段名,计算字段 from  表名称 </p>
-<h3 id="2、where"><a href="#2、where" class="headerlink" title="2、where"></a>2、where</h3><p>select 字段名 from 表名 where 表达式</p>
-<ul>
-<li>运算符查询语法</li>
-</ul>
-<p>select 字段名 from 表名 where 字段名 运算符 值</p>
-<ul>
-<li>模糊查询语法</li>
-</ul>
-<p>select 字段名 from 表名 where 字段名 like ‘通配符+字符’</p>
-<ul>
-<li>使用多条件查询</li>
-</ul>
-<p>select 字段名 from 表名 where 条件代码1 and|or 条件代码2</p>
-<ul>
-<li>运算符</li>
-</ul>
-<p>&#x3D;、&gt;、&lt;、&gt;&#x3D;、&lt;&#x3D;、&lt;&gt;&#x2F;!&#x3D;不等于</p>
-<p>between and </p>
-<p>in、not in </p>
-<p>is null、is not null</p>
-<p>逻辑运算符：and与、or或、not非</p>
-<ul>
-<li>通配符</li>
-</ul>
-<p>%表示任何字符出现任意次数</p>
-<p>_表示任何字符出现一次</p>
-<h3 id="3、order-by"><a href="#3、order-by" class="headerlink" title="3、order by"></a>3、order by</h3><p>select 字段名 from 表名 [where 表达式] [order by 字段名 asc|desc]</p>
-<ul>
-<li>order by 字段名 asc|desc  规定查询出的结果集显示的顺序</li>
-<li>order by核心子句是可选项，使用该子句是为了对被查询出的结果集，指定依据字段排序</li>
-<li>asc指定该字段升序排序，desc为降序排序，不写则默认为升序排序</li>
-</ul>
-<h3 id="4、limit"><a href="#4、limit" class="headerlink" title="4、limit"></a>4、limit</h3><ul>
-<li>查询结果返回前n行</li>
-</ul>
-<p>select 字段名 from 表名 [where 表达式] [order by 字段名 asc|desc] <strong>[limit n]</strong></p>
-<ul>
-<li>查询结果返回第x+1行开始的n行到x+n行</li>
-</ul>
-<p>select 字段名 from 表名 [where 表达式] [order by 字段名 asc|desc] <strong>[limit x,n]</strong></p>
-<h3 id="5、group-by-聚合函数"><a href="#5、group-by-聚合函数" class="headerlink" title="5、group by&amp;聚合函数"></a>5、group by&amp;聚合函数</h3><p>select 字段名1,聚合函数(字段名) from 表名 [where 表达式] [group by 字段名1] [order by 字段名 asc|desc] [limit [位置偏移量,]行数]</p>
-<ul>
-<li>聚合函数</li>
-</ul>
-<p>AVG()、COUNT()、MAX()、MIN()、SUM()</p>
-<h3 id="6、having"><a href="#6、having" class="headerlink" title="6、having"></a>6、having</h3><p>select 字段名 from 表名 [where 表达式] [group by 字段名] [having 表达式] [order by 字段名 asc|desc] [limit [位置偏移量,]行数]</p>
-<h3 id="7、部分常见函数"><a href="#7、部分常见函数" class="headerlink" title="7、部分常见函数"></a>7、部分常见函数</h3><ul>
-<li>数学函数</li>
-</ul>
-<p>round(x,y)——四舍五入函数</p>
-<ul>
-<li>字符串函数</li>
-</ul>
-<p>concat(s1,s2,…)——连接字符串函数</p>
-<p>replace(s,s1,s2)——替换函数</p>
-<p>left(s,n)——从左截取字符串一部分的函数</p>
-<p>right(s,n)——从右截取字符串一部分的函数</p>
-<p>substring(s,n,len)——从指定位置截取字符串一部分的函数</p>
-<ul>
-<li>数据类型转换函数</li>
-</ul>
-<p>cast(x as type)——转换数据类型的函数</p>
-<ul>
-<li>日期时间函数</li>
-</ul>
-<p>year(date)——获取年的函数</p>
-<p>month(date)——获取月的函数</p>
-<p>day(date)——获取日的函数</p>
-<p>date_add(date,interval expr type)——对指定起始时间进行加操作</p>
-<blockquote>
-<ul>
-<li>select</li>
-<li>whn 更新时间</li>
-<li>,date_add(whn,interval 2 day) 加2天</li>
-<li>from covid</li>
-<li>where recovered &gt; 0</li>
-</ul>
-</blockquote>
-<p>date_sub(date,interval expr type)——对指定起始时间进行减操作</p>
-<p>datediff(date1,date2)——计算两个日期之间间隔的天数</p>
-<p>date_format(date,format)——将日期和时间格式化</p>
-<ul>
-<li>条件判断函数——根据满足不同条件，执行相应流程</li>
-</ul>
-<p>if(expr,v1,v2)</p>
-<p>case when</p>
-<blockquote>
-<ul>
-<li>select</li>
-<li>recovered 累计治愈人数</li>
-<li>,case when recovered &#x3D; 1 then ‘one’ when recovered &gt; 1 then ‘more’ else ‘0’ end</li>
-<li>from covid</li>
-<li>where recovered &gt; 0</li>
-</ul>
-</blockquote>
-<h2 id="高级语句"><a href="#高级语句" class="headerlink" title="高级语句"></a>高级语句</h2><h3 id="1、窗口函数"><a href="#1、窗口函数" class="headerlink" title="1、窗口函数"></a>1、窗口函数</h3><ul>
-<li>排序窗口函数语法</li>
-</ul>
-<p>rank()over([partition by 字段名] order by 字段名 asc|desc)12345</p>
-<p>dense_rank()over([partition by 字段名] order by 字段名 asc|desc)11345</p>
-<p>row_number()over([partition by 字段名] order by 字段名 asc|desc)11223</p>
-<blockquote>
-<ul>
-<li>select</li>
-<li>yr</li>
-<li>,party</li>
-<li>,votes</li>
-<li>,rank()over(partition by yr order by votes desc) as posn</li>
-<li>from ge</li>
-<li>where constituency &#x3D; ‘S14000021’</li>
-<li>order by party,yr</li>
-</ul>
-</blockquote>
-<ul>
-<li>偏移分析函数语法</li>
-</ul>
-<p>lag(字段名,偏移量[,默认值])over([partition by 字段名] order by 字段名 asc|desc)</p>
-<p>lead(字段名,偏移量[,默认值])over([partition by 字段名] order by 字段名 asc|desc)</p>
-<blockquote>
-<ul>
-<li>select</li>
-<li>name</li>
-<li>,date_format(whn,’%Y-%m-%d’) date</li>
-<li>,confirmed 当天截至时间累计确诊人数</li>
-<li>,lag(confirmed,1)over(partition by name order by whn) 昨天截至时间累计确诊人数</li>
-<li>,(confirmed - lag(confirmed,1)over(partition by name order by whn)) 每天新增确诊人数</li>
-<li>from covid</li>
-<li>where name in (‘France’,’Germany’) and month(whn) &#x3D; 1</li>
-<li>order by whn</li>
-</ul>
-</blockquote>
-<h3 id="2、表连接"><a href="#2、表连接" class="headerlink" title="2、表连接"></a>2、表连接</h3><ul>
-<li>内连接inner join语法（注意内连接inner可以省略，直接使用join默认为内连接）【只保留匹配上的数据行】</li>
-</ul>
-<p>select 字段名 from 表名1 inner join 表名2 on 表名1.字段名 &#x3D;  表名2.字段名</p>
-<ul>
-<li>左连接left join语法【保留左表】</li>
-</ul>
-<p>select 字段名 from 表名1 left join 表名2 on 表名1.字段名 &#x3D;  表名2.字段名</p>
-<ul>
-<li>右连接right join语法【保留右表】</li>
-</ul>
-<p>select 字段名 from 表名1 right join 表名2 on 表名1.字段名 &#x3D;  表名2.字段名</p>
-<h3 id="3、子查询"><a href="#3、子查询" class="headerlink" title="3、子查询"></a>3、子查询</h3><p>子查询本身是一个完整的查询，由括号包裹嵌套在主查询中</p>
-<p>子查询最后返回查询出的结果给主查询</p>
-<p>子查询可以在select，from，where，having子句（同where）中使用，但要注意不同子句能接受的子查询种类有差别</p>
-<p>子查询可以多重嵌套（子查询可以作为主查询再嵌套子查询）</p>
-<blockquote>
-<ul>
-<li><p>select name</p>
-</li>
-<li><p>from world</p>
-</li>
-<li><p>where gdp&#x2F;population &gt; (</p>
-<ul>
-<li><p>​                                               select gdp&#x2F;population</p>
-</li>
-<li><p>​                                               from world</p>
-</li>
-<li><p>​                                               where name&#x3D;’united kingdom’</p>
-</li>
-<li><p>​                                           )</p>
-</li>
-</ul>
-</li>
-<li><p>and continent&#x3D;’europe’</p>
-</li>
-</ul>
-</blockquote>
-<blockquote>
-<ul>
-<li><p>select</p>
-</li>
-<li><p>name</p>
-</li>
-<li><p>,population</p>
-</li>
-<li><p>from world</p>
-</li>
-<li><p>where population &gt; (</p>
-<ul>
-<li><p>​                                             select population</p>
-</li>
-<li><p>​                                             from world</p>
-</li>
-<li><p>​                                             where name&#x3D; ‘Canada’</p>
-</li>
-<li><p>​                                  )</p>
-</li>
-</ul>
-</li>
-<li><p>and population &lt; (</p>
-<ul>
-<li><p>​                                       select population</p>
-</li>
-<li><p>​                                       from world</p>
-</li>
-<li><p>​                                       where name &#x3D; ‘Poland’</p>
-</li>
-<li><p>​                              )</p>
-</li>
-</ul>
-</li>
-</ul>
-</blockquote>
-<blockquote>
-<ul>
-<li><p>select</p>
-</li>
-<li><p>name</p>
-</li>
-<li><p>,continent</p>
-</li>
-<li><p>,population</p>
-</li>
-<li><p>from world</p>
-</li>
-<li><p>where continent not in (</p>
-<ul>
-<li><p>​                                           select distinct continent</p>
-</li>
-<li><p>​                                           from world</p>
-</li>
-<li><p>​                                           where population &gt;25000000</p>
-</li>
-<li><p>​                                        )</p>
-</li>
-</ul>
-</li>
-</ul>
-</blockquote>
-<blockquote>
-<ul>
-<li><p>select</p>
-</li>
-<li><p>continent</p>
-</li>
-<li><p>,name</p>
-</li>
-<li><p>,area</p>
-</li>
-<li><p>from world</p>
-</li>
-<li><p>where (continent,area) in  (</p>
-<ul>
-<li><p>​                                                   select</p>
-</li>
-<li><p>​                                                   continent</p>
-</li>
-<li><p>​                                                  ,max(area)</p>
-</li>
-<li><p>​                                                   from world</p>
-</li>
-<li><p>​                                                   group by continent</p>
-</li>
-<li><p>​                                               )</p>
-</li>
-</ul>
-</li>
-</ul>
-</blockquote>
-<blockquote>
-<ul>
-<li><p>select</p>
-</li>
-<li><p>name</p>
-</li>
-<li><p>,日期</p>
-</li>
-<li><p>,每天新增治愈人数</p>
-</li>
-<li><p>,rank()over(partition by name order by 每天新增治愈人数 desc) 排名</p>
-</li>
-<li><p>from</p>
-</li>
-<li><p>(</p>
-<ul>
-<li><p>select</p>
-</li>
-<li><p>name</p>
-</li>
-<li><p>,date_format(whn,’%Y年%m月%d日’) 日期</p>
-</li>
-<li><p>,(recovered - lag(recovered,1)over(partition by name order by whn)) 每天新增治愈人数</p>
-</li>
-<li><p>from covid</p>
-</li>
-<li><p>where name in (‘France’,’Italy’)</p>
-</li>
-</ul>
-</li>
-<li><p>) re</p>
-</li>
-<li><p>order by 排名</p>
-</li>
-</ul>
-</blockquote>
+                <h1 id="Excel周报"><a href="#Excel周报" class="headerlink" title="Excel周报"></a>Excel周报</h1><p><img src="/../images/Excel%E5%91%A8%E6%8A%A5.png" srcset="/img/loading.gif" lazyload alt="Excel周报"></p>
 
                 
               </div>
@@ -606,7 +291,7 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="print-no-link">#学习笔记</a>
+        <a href="/tags/%E9%A1%B9%E7%9B%AE/" class="print-no-link">#项目</a>
       
     </div>
   
@@ -618,8 +303,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>SQL</div>
-      <div>http://example.com/2025/02/24/sql学习笔记/</div>
+      <div>Excel周报</div>
+      <div>http://example.com/2025/02/25/Excel周报/</div>
     </div>
     <div class="license-meta">
       
@@ -631,7 +316,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2025年2月24日</div>
+          <div>2025年2月25日</div>
         </div>
       
       
@@ -663,18 +348,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2025/02/24/spss%E7%AC%94%E8%AE%B0/" title="SPSS">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">SPSS</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2025/02/24/markdown%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95/" title="Markdown常用语法">
-                        <span class="hidden-mobile">Markdown常用语法</span>
+                      <a href="/2025/02/25/Tableau%E6%AF%8F%E6%97%A5%E4%B8%9A%E5%8A%A1%E6%83%85%E5%86%B5%E6%B1%87%E6%80%BB%E4%BB%AA%E8%A1%A8%E7%9B%98/" title="Tableau每日业务情况汇总仪表盘">
+                        <span class="hidden-mobile">Tableau每日业务情况汇总仪表盘</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
